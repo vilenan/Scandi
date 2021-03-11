@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
 
 <head>
     <meta charset="UTF-8">
@@ -12,93 +12,111 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="container">
 
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="site-navigation center">
             <a>SCANDI</a>
-            <ul>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#"></a>Портфолио</a></li>
-                <li><a href="#"></a>Команда</a></li>
-                <li><a href="#"></a>Как мы работаем</a></li>
-                <li><a href="#"></a>Отзывы клиентов</a></li>
-                <li><a href="#"></a>Оставить заявку</a></li>
+            <ul class="site-navigation-list">
+                <li class="site-navigation-item"><a href="#" class="site-navigation-link">О компании</a></li>
+                <li class="site-navigation-item"><a href="#" class="site-navigation-link">Портфолио</a></li>
+                <li class="site-navigation-item"><a href="#" class="site-navigation-link">Команда</a></li>
+                <li class="site-navigation-item"><a href="#" class="site-navigation-link">Как мы работаем</a></li>
+                <li class="site-navigation-item"><a href="#" class="site-navigation-link">Отзывы клиентов</a></li>
+                <li class="site-navigation-item"><a href="#" class="site-navigation-link">Оставить заявку</a></li>
             </ul>
             <a href="tel:+79818574624">+7(981)857-46-24</a>
         </nav>
     </header>
 
     <main>
-        <h1>Интерьеры SCANDI</h1>
+        <h1 class="visually-hidden">Интерьеры SCANDI</h1>
 
         <section class="make_order">
-            <h2>Поможем сделать вашу квартиру уютнее</h2>
-            <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать
+            <h2 class="title title_order">Поможем сделать вашу квартиру уютнее</h2>
+            <p class="make_order-content">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и
+                помогаем организовать
                 доставку</p>
-            <a href="#!">Оставить заявку</a>
+            <a class="button" href="#!">Оставить заявку</a>
         </section>
 
         <section class="about">
-            <h2>О нас</h2>
-            <img src="img/about.jpg" alt=" " width="444" height="465">
-            <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать
-                неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что
-                по-настоящему вдохновляет дизайнеров нашей студии.</p>
-            <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно
-                то, что действительно достойно моего дома!»</p>
+            <h2 class="title title-basic title-about">О нас</h2>
+            <div class="about-content">
+                <img src="img/about.jpg" alt=" " width="444" height="465">
+                <div class="about-text">
+                    <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать
+                        неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,
+                        что
+                        по-настоящему вдохновляет дизайнеров нашей студии.</p>
+                    <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это
+                        именно
+                        то, что действительно достойно моего дома!»</p>
+                </div>
+            </div>
         </section>
 
         <div class="achievements">
-            <dl>
-                <dt>5</dt>
-                <dd>лет опыта</dd>
-                <dt>100</dt>
-                <dd>проектов</dd>
-                <dt>10</dt>
-                <dd>наград</dd>
+            <dl class="center">
+                <div class="achievements-item">
+                    <dt>5</dt>
+                    <dd>лет опыта</dd>
+                </div>
+                <div class="achievements-item">
+                    <dt>100</dt>
+                    <dd>проектов</dd>
+                </div>
+                <div class="achievements-item">
+                    <dt>10</dt>
+                    <dd>наград</dd>
+                </div>
             </dl>
         </div>
 
-        <section>
-            <h2>Наши работы</h2>
-            <div>
-                <img src="img/img_1.jpg" alt=" " width="488" height="451">
-                <img src="img/img_2.jpg" alt=" " width="692" height="451">
-                <img src="img/img_3.jpg" alt=" " width="692" height="451">
-                <img src="img/img_4.jpg" alt=" " width="488" height="451">
+        <section class="projects center">
+            <h2 class="title title-basic">Наши работы</h2>
+            <div class="projects-gallery">
+                <img class="projects-gallery-item" src="img/img_1.jpg" alt=" " width="488" height="451">
+                <img class="projects-gallery-item" src="img/img_2.jpg" alt=" " width="692" height="451">
+                <img class="projects-gallery-item" src="img/img_3.jpg" alt=" " width="692" height="451">
+                <img class="projects-gallery-item" src="img/img_4.jpg" alt=" " width="488" height="451">
             </div>
-            <a href="#">Смотреть еще</a>
+            <a class="show-link" href="#">Смотреть еще</a>
         </section>
+        <div class="wrapper_sections">
+            <section class="team center">
+                <h2 class="title title-basic">Команда</h2>
+                <div>
+                    <div>
+                        <img src="img/team_1.jpg" alt=" " width="320" height="253">
+                        <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
+                            и помогает сделать вашу квартиру красивой и уютной.</p>
+                    </div>
+                    <div>
+                        <img src="img/team_2.jpg" alt=" " width="320" height="253">
+                        <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все
+                            документы
+                            и ответит на все вопросы.</p>
+                    </div>
+                    <div>
+                        <img src="img/team_3.jpg" alt=" " width="320" height="253">
+                        <p>Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как
+                            обсутроить дом так, чтобы вам понравилось.</p>
+                    </div>
+                </div>
+                
+            </section>
 
+            <section class="work center">
+                <h2 class="title title-basic">Как мы работаем</h2>
+                <div>Знакомимся, выезжаем на объект, утверждаем концепцию, подписывем договор.</div>
+                <div>Подбираем мебель, текстиль, аксессуры. Делаем 3D-зуализацию.</div>
+                <div>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</div>
+                <div>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
+            </section>
+        </div>
         <section>
-            <h2>Команда</h2>
-            <div>
-                <img src="img/team_1.jpg" alt=" " width="320" height="253">
-                <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
-                    и помогает сделать вашу квартиру красивой и уютной.</p>
-            </div>
-            <div>
-                <img src="img/team_2.jpg" alt=" " width="320" height="253">
-                <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
-                    и ответит на все вопросы.</p>
-            </div>
-            <div>
-                <img src="img/team_3.jpg" alt=" " width="320" height="253">
-                <p>Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как обсутроить дом так, чтобы вам понравилось.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Как мы работаем</h2>
-            <div>Знакомимся, выезжаем на объект, утверждаем концепцию, подписывем договор.</div>
-            <div>Подбираем мебель, текстиль, аксессуры. Делаем 3D-зуализацию.</div>
-            <div>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</div>
-            <div>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
-        </section>
-
-        <section>
-            <h2>Отзывы</h2>
+            <h2 class="title title-basic">Отзывы</h2>
 
             <blockquote>
                 <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего
@@ -117,7 +135,7 @@
         </section>
 
         <section>
-            <h2>Оставить заявку</h2>
+            <h2 class="title title-basic">Оставить заявку</h2>
             <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
             <form action="#" method="GET" target="_blank">
                 <label for="">Имя</label>
@@ -129,6 +147,7 @@
             <img src="img/map.png" alt=" " width="590" height="624">
         </section>
     </main>
+
     <footer>
         <a href="tel:+79818574624">+7(981)857-46-24</a>
         <p>г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
