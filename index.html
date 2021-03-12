@@ -16,7 +16,7 @@
 
     <header class="main-header">
         <nav class="site-navigation center">
-            <a>SCANDI</a>
+            <a class="logo">SCANDI</a>
             <ul class="site-navigation-list">
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">О компании</a></li>
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">Портфолио</a></li>
@@ -25,7 +25,7 @@
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">Отзывы клиентов</a></li>
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">Оставить заявку</a></li>
             </ul>
-            <a href="tel:+79818574624">+7(981)857-46-24</a>
+            <a class="phone-link" href="tel:+79818574624">+7(981)857-46-24</a>
         </nav>
     </header>
 
@@ -37,11 +37,11 @@
             <p class="make_order-content">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и
                 помогаем организовать
                 доставку</p>
-            <a class="button" href="#!">Оставить заявку</a>
+            <a class="button button_order" href="#!">Оставить заявку</a>
         </section>
 
         <section class="about">
-            <h2 class="title title-basic title-about">О нас</h2>
+            <h2 class="title title-basic title-center">О нас</h2>
             <div class="about-content">
                 <img src="img/about.jpg" alt=" " width="444" height="465">
                 <div class="about-text">
@@ -73,7 +73,7 @@
             </dl>
         </div>
 
-        <section class="projects center">
+        <section class="projects">
             <h2 class="title title-basic">Наши работы</h2>
             <div class="projects-gallery">
                 <img class="projects-gallery-item" src="img/img_1.jpg" alt=" " width="488" height="451">
@@ -81,76 +81,127 @@
                 <img class="projects-gallery-item" src="img/img_3.jpg" alt=" " width="692" height="451">
                 <img class="projects-gallery-item" src="img/img_4.jpg" alt=" " width="488" height="451">
             </div>
-            <a class="show-link" href="#">Смотреть еще</a>
+            <a class="show-link" href="#">Смотреть еще
+                <svg width="61" height="16" viewBox="0 0 61 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M60.7071 8.70711C61.0976 8.31658 61.0976 7.68342 60.7071 7.29289L54.3432 0.928932C53.9526 0.538408 53.3195 0.538408 52.9289 0.928932C52.5384 1.31946 52.5384 1.95262 52.9289 2.34315L58.5858 8L52.9289 13.6569C52.5384 14.0474 52.5384 14.6805 52.9289 15.0711C53.3195 15.4616 53.9526 15.4616 54.3432 15.0711L60.7071 8.70711ZM0 9H60V7H0V9Z"
+                        fill="#533738" />
+                </svg>
+            </a>
         </section>
         <div class="wrapper_sections">
+
             <section class="team center">
-                <h2 class="title title-basic">Команда</h2>
-                <div>
-                    <div>
+                <h2 class="title title-basic title-center">Команда</h2>
+                <div class="team-wrapper">
+                    <div class="team-item">
                         <img src="img/team_1.jpg" alt=" " width="320" height="253">
-                        <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
+                        <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой,
+                            общается
                             и помогает сделать вашу квартиру красивой и уютной.</p>
                     </div>
-                    <div>
+                    <div class="team-item">
                         <img src="img/team_2.jpg" alt=" " width="320" height="253">
-                        <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все
+                        <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт
+                            все
                             документы
                             и ответит на все вопросы.</p>
                     </div>
-                    <div>
+                    <div class="team-item">
                         <img src="img/team_3.jpg" alt=" " width="320" height="253">
                         <p>Катя тоже занимается дизайном. Она всегда находит общий язык с клиентами и точно знает, как
                             обсутроить дом так, чтобы вам понравилось.</p>
                     </div>
                 </div>
-                
+
             </section>
 
             <section class="work center">
-                <h2 class="title title-basic">Как мы работаем</h2>
-                <div>Знакомимся, выезжаем на объект, утверждаем концепцию, подписывем договор.</div>
-                <div>Подбираем мебель, текстиль, аксессуры. Делаем 3D-зуализацию.</div>
-                <div>Находим нужные магазины, помогаем с доставкой и оплатой товаров.</div>
-                <div>Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</div>
+                <h2 class="title title-basic title-center">Как мы работаем</h2>
+                <div class="work-stages-list">
+                    <div class="work-stages-item">
+                        <span>1</span>
+                        <p class="work-stages-item-text">Знакомимся, выезжаем на объект, утверждаем концепцию,
+                            подписывем договор.</p>
+                    </div>
+                    <div class="work-stages-item">
+                        <span>2</span>
+                        <p class="work-stages-item-text">Подбираем мебель, текстиль, аксессуры. Делаем 3D-зуализацию.
+                        </p>
+                    </div>
+                    <div class="work-stages-item">
+                        <span>3</span>
+                        <p class="work-stages-item-text">Находим нужные магазины, помогаем с доставкой и оплатой
+                            товаров.</p>
+                    </div>
+                    <div class="work-stages-item">
+                        <span>4</span>
+                        <p class="work-stages-item-text">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем
+                            шторы, находим места для мелочей
+                        </p>
+                    </div>
+                </div>
             </section>
         </div>
-        <section>
-            <h2 class="title title-basic">Отзывы</h2>
 
-            <blockquote>
-                <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего
-                    дома.
-
-                    Работа шла быстро, было очень приятно общаться и взаимодествовайть
-                    с сотрудниками. Не ожидала, что это будет так легко!
-
-                    Буду советовать и своим друзьям к вам обращаться!»</p>
-                <cite>Анна Беловская</cite>
-            </blockquote>
-            <div>
+        <section class="reviews">
+            <h2 class="title title-basic title-center">Отзывы</h2>
+            <div class="reviews-item">
+                <blockquote>
+                    <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего
+                        дома.</p>
+                    <p>Работа шла быстро, было очень приятно общаться и взаимодествовайть с сотрудниками. Не ожидала,
+                        что это будет так легко!</p>
+                    <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+                    <cite>Анна Беловская</cite>
+                </blockquote>
                 <img src="img/review_1.jpg" alt=" " width="407" height="272">
                 <img src="img/review_2.jpg" alt=" " width="407" height="272">
+
             </div>
+            <button class="galery-button galery-button-back" type="button" aria-label="назад">
+                <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z"
+                        fill="#F5F2ED" />
+                </svg>
+            </button>
+            <button class="galery-button galery-button-forward" type="button" aria-label="вперед">
+                <svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z"
+                        fill="#F5F2ED" />
+                </svg>
+            </button>
         </section>
 
-        <section>
-            <h2 class="title title-basic">Оставить заявку</h2>
-            <p>Оставьте свои контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
-            <form action="#" method="GET" target="_blank">
-                <label for="">Имя</label>
-                <input type="text" id="">
-                <label for="">Телефон</label>
-                <input type="text" id="">
-                <button type="submit">Оставить заявку</button>
-            </form>
-            <img src="img/map.png" alt=" " width="590" height="624">
+        <section class="contacts">
+            <div class="contacts-form">
+                <h2 class="title title-basic title-contacts">Оставить заявку</h2>
+                <p class="contacts-text">Оставьте свои контакты. Менеджер перезвонит<br> в удобное вам время и ответит
+                    на все вопросы.</p>
+                <form action="#" method="GET" target="_blank">
+                    <label class="visually-hidden" for="user-name">Ваше имя</label>
+                    <input type="text" id="user-name" placeholder="Ваше имя">
+                    <label class="visually-hidden" for="user-phone">Введите телефон</label>
+                    <input type="text" id="user-phone" placeholder="Введите телефон">
+                    <button class="button button_form" type="submit">Оставить заявку</button>
+                </form>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1615535199902!5m2!1sru!2sru"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <!-- <img src="img/map.png" alt=" " width="590" height="624"> -->
         </section>
     </main>
 
-    <footer>
-        <a href="tel:+79818574624">+7(981)857-46-24</a>
-        <p>г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+    <footer class="main-footer">
+        <div class="footer-contacts"> 
+            <a class="phone-link footer_phone-link" href="tel:+79818574624">+7(981)857-46-24</a>
+            <p>г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+        </div>
+
         <p>ИП Королёва А.А.</p>
     </footer>
 
