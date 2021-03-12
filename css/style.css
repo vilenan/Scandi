@@ -102,6 +102,11 @@ img {
     color: inherit;
 }
 
+.site-navigation-link:hover,
+.phone-link:hover {
+    text-decoration: underline;
+}
+
 .title {
     font-style: normal;
     font-weight: normal;
@@ -147,6 +152,15 @@ img {
 
 .button_order {
     margin-bottom: 168px;
+}
+
+.button:hover {
+    background-color: #CE7972;
+}
+
+.button:active,
+.button:focus {
+    background-color: #BC554E;
 }
 
 .about {
