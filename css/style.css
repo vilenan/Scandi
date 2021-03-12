@@ -54,7 +54,7 @@ img {
 
 /*header*/
 .main-header {
-    margin-bottom: -100%;
+    margin-bottom: -100px;
     position: relative;
 }
 
@@ -247,6 +247,10 @@ dd {
     color: inherit;
 }
 
+.show-link:hover {
+    opacity: 0.6;
+}
+
 .wrapper_sections {
     background-color: #E2C4BA;
 }
@@ -317,6 +321,15 @@ dd {
     height: 72px;
     border-radius: 50%;
     border: none;
+}
+
+.galery-button:hover {
+    background-color: #CE7972;
+}
+
+.galery-button:active,
+.galery-button:focus {
+    background-color: #BC554E;
 }
 
 .galery-button-back {
