@@ -62,7 +62,7 @@ img {
     grid-template-columns: 178px 1fr max-content;
     display: grid;
     align-items: center;
-    margin-top: 36px;
+    margin-top: 34px;
 }
 
 .site-navigation-list {
@@ -116,7 +116,7 @@ img {
 }
 
 .make_order {
-    padding-top: 152px;
+    padding-top: 150px;
     padding-left: 184px;
     background-color: #EFE6E4;
     background-image: url("../img/main-img.jpg");
@@ -136,6 +136,8 @@ img {
 
 .make_order-content {
     width: 500px;
+    margin-top: 23px;
+    margin-bottom: 25px;
 }
 
 .button {
@@ -171,6 +173,11 @@ img {
     background-color: #EFE6E4;
 }
 
+.about-text p:first-of-type {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
 .title-center {
     text-align: center;
     margin-bottom: 40px;
@@ -197,13 +204,17 @@ img {
 }
 
 dl {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin: 0;
 }
 
 dt {
     font-size: 50px;
     line-height: 62px;
+    margin-bottom: 8px;
 }
 
 dd {
@@ -217,7 +228,7 @@ dd {
 /*projects*/
 
 .projects {
-    padding-top: 65px;
+    padding-top: 68px;
     padding-bottom: 65px;
     padding-left: 100px;
     padding-right: 100px;
@@ -226,15 +237,42 @@ dd {
 
 .projects-gallery {
     margin-top: 40px;
-    margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     margin-right: -20px;
 }
 
-.projects-gallery-item {
+.projects-gallery-item-wrapper {
+    position: relative;
     margin-right: 20px;
     margin-bottom: 30px;
+}
+
+.layer_2 {
+    display: none;
+    position: absolute;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 86px;
+    z-index: 3;
+    background-color: rgba(100, 72, 69, 0.8);
+    top: 0;
+    height: 451px;
+    color: #FFF;
+}
+
+.layer_2 h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    width: 270px;
+    text-align: center;
+}
+
+.projects-gallery-item-wrapper:hover .layer_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .show-link {
@@ -257,7 +295,7 @@ dd {
 
 /*team*/
 .team {
-    padding-top: 50px;
+    padding-top: 45px;
 }
 
 .team-wrapper {
@@ -272,9 +310,15 @@ dd {
     width: 320px;
 }
 
+.team-item p {
+    margin: 0;
+}
+
+
 /*work*/
 .work {
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
 
 .work-stages-list {
@@ -308,7 +352,7 @@ dd {
 
 /*review*/
 .reviews {
-    padding-top: 65px;
+    padding-top: 60px;
     padding-bottom: 65px;
     background-color: #EFE6E4;
     position: relative;
@@ -333,13 +377,13 @@ dd {
 }
 
 .galery-button-back {
-    left: 200px;
-    top: 400px;
+    left: 180px;
+    top: 390px;
 }
 
 .galery-button-forward {
-    right: 200px;
-    top: 400px;
+    right: 180px;
+    top: 390px;
 }
 
 .reviews-item {
@@ -356,6 +400,10 @@ blockquote {
     margin: 0;
     padding: 0;
     padding-top: 71px;
+}
+
+blockquote p {
+    margin-bottom: 30px;
 }
 
 .reviews-item cite {
